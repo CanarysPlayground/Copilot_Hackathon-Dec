@@ -37,3 +37,31 @@ Develop a Python script that generates random quizzes from a pool of questions s
     "category": "Science"
   }
 ]
+
+
+## Functional Requirements
+
+1. **Load Questions**:
+   - The script should load questions from the JSON file at the start.
+
+2. **Randomize Questions**:
+   - Shuffle the order of the questions every time the quiz runs.
+
+3. **Randomize Options**:
+   - Shuffle the options for each question.
+
+4. **Display Questions**:
+   - Present one question at a time with options numbered (e.g., 1, 2, 3, 4).
+
+5. **Take User Input**:
+   - Accept input corresponding to the option number (e.g., 1, 2, etc.).
+   - Validate the input to ensure it matches available options.
+
+6. **Track Score**:
+   - Keep a tally of correct answers.
+   - Show the score after all questions are answered.
+
+7. **Optional Features**:
+   - Allow users to select a category (e.g., Math, Science) to filter questions.
+   - Implement a time limit for each question.
+   - Add a "skip" option that moves the question to the end of the quiz.
