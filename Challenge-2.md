@@ -37,6 +37,7 @@ Develop a Python script that generates random quizzes from a pool of questions s
     "category": "Science"
   }
 ]
+```
 
 
 ## Functional Requirements
